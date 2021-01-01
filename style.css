@@ -1,0 +1,55 @@
+html { 
+    background: url("./src/pretty_world_map.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 70px;
+}
+
+/* img {
+    max-width: 80%;
+    height: auto;
+} */
+
+.btn{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Yellowtail', cursive;
+}
+
+#seoul{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Yellowtail', cursive;
+}
+
+.btn-collection{
+    padding: 0px 0px 40px 0px;
+}
