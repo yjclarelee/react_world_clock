@@ -30,7 +30,7 @@ btn_seoul.addEventListener("click", function (){
     });
 });
 
-// event listener for when the Beoul button is clicked
+// event listener for when the Berkeley button is clicked
 btn_berkeley.addEventListener("click", function(){
     // set button color according to button click
     btn_seoul.style.backgroundColor = "black";
