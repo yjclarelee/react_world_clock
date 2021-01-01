@@ -51,6 +51,7 @@ h1 {
     cursor: pointer;
     border-radius: 12px;
     font-family: 'Neucha', cursive;
+    box-shadow: 0px 0px 8px blue;
 }
 
 #time{
