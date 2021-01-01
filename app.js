@@ -8,7 +8,7 @@ setTime(0);
 let initial_setTime = setInterval(function(){setTime(0)}, 1000);
 
 // event listener for when the Seoul button is clicked
-btn_seoul.addEventListener("click", function changeColor(event){
+btn_seoul.addEventListener("click", function (){
     // set button color according to button click
     btn_seoul.style.backgroundColor = "blue";
     btn_berkeley.style.backgroundColor = "black";
@@ -16,10 +16,8 @@ btn_seoul.addEventListener("click", function changeColor(event){
 
     // clear inital time
     clearInterval(initial_setTime);
-
     // set inital time to seoul
     setTime(0);
-
     // start seoul time interval
     let interval_seoul = setInterval(function(){setTime(0)}, 1000);
 
@@ -33,7 +31,7 @@ btn_seoul.addEventListener("click", function changeColor(event){
 });
 
 // event listener for when the Beoul button is clicked
-btn_berkeley.addEventListener("click", function changeColor(event){
+btn_berkeley.addEventListener("click", function(){
     // set button color according to button click
     btn_seoul.style.backgroundColor = "black";
     btn_berkeley.style.backgroundColor = "blue";
@@ -41,12 +39,10 @@ btn_berkeley.addEventListener("click", function changeColor(event){
 
     // clear inital time
     clearInterval(initial_setTime);
-
     // set inital time to Berkeley
-    setTime(5);
-
+    setTime(7);
     // start Berkeley time interval
-    let interval_berkeley = setInterval(function(){setTime(5)}, 1000);
+    let interval_berkeley = setInterval(function(){setTime(7)}, 1000);
 
     // when other buttons are clicked, remove the Berkeley time interval
     btn_seoul.addEventListener("click", function stop(){
@@ -58,7 +54,7 @@ btn_berkeley.addEventListener("click", function changeColor(event){
 });
 
 // event listener for when the New York button is clicked
-btn_new_york.addEventListener("click", function changeColor(event){
+btn_new_york.addEventListener("click", function(){
     // set button color according to button click
     btn_seoul.style.backgroundColor = "black";
     btn_berkeley.style.backgroundColor = "black";
@@ -66,12 +62,10 @@ btn_new_york.addEventListener("click", function changeColor(event){
 
     // clear inital time
     clearInterval(initial_setTime);
-
     // set inital time to New York
-    setTime(7);
-
+    setTime(10);
     // start New York time interval
-    let interval_new_york = setInterval(function(){setTime(7)}, 1000);
+    let interval_new_york = setInterval(function(){setTime(10)}, 1000);
 
     // when other buttons are clicked, remove the New York time interval
     btn_seoul.addEventListener("click", function stop(){
@@ -99,7 +93,7 @@ function setTime(num){
     if(sec < 10){
         sec = '0' + sec;
     }
-    
+
     // set the innerText of the time
     time.innerText = `${hour} : ${minute} : ${sec}`;
     console.log(num);
