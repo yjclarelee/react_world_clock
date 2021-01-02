@@ -1,7 +1,8 @@
 let btn_seoul = document.getElementById("seoul"),
     btn_berkeley = document.getElementById("berkeley"),
-    btn_new_york = document.getElementById("new-york"),
-    time = document.getElementById("time");
+    btn_new_york = document.getElementById("new-york");
+
+let time = document.getElementById("time");
 
 // initalize time to Seoul
 setTime(0);
@@ -13,6 +14,9 @@ btn_seoul.addEventListener("click", function (){
     btn_seoul.style.backgroundColor = "blue";
     btn_berkeley.style.backgroundColor = "black";
     btn_new_york.style.backgroundColor = "black";
+
+    // set seoul boxShadow
+    btn_seoul.style.boxShadow = "0px 0px 8px blue";
 
     // clear inital time
     clearInterval(initial_setTime);
@@ -37,6 +41,9 @@ btn_berkeley.addEventListener("click", function(){
     btn_berkeley.style.backgroundColor = "blue";
     btn_new_york.style.backgroundColor = "black";
 
+    // remove seoul boxShadow
+    btn_seoul.style.boxShadow = "0 0 #000";
+
     // clear inital time
     clearInterval(initial_setTime);
     // set inital time to Berkeley
@@ -59,6 +66,9 @@ btn_new_york.addEventListener("click", function(){
     btn_seoul.style.backgroundColor = "black";
     btn_berkeley.style.backgroundColor = "black";
     btn_new_york.style.backgroundColor = "blue";
+
+    // remove seoul boxShadow
+    btn_seoul.style.boxShadow = "0 0 #000";
 
     // clear inital time
     clearInterval(initial_setTime);
