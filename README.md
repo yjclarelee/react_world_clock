@@ -1,7 +1,7 @@
 # World Clock Project
 
 ## Webpage
-[URL](https://yjclarelee.github.io/world_clock)
+[World Clock Page Homepage Link](https://yjclarelee.github.io/world_clock)
 ![image](./assets/img/website_image.png)
 ## v.0.1.0
 Date: 2021.03.15
