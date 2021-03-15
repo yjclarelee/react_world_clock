@@ -1,11 +1,11 @@
-let btn_area = document.querySelector('.btn-collection');
+let btnArea = document.querySelector('.btn-collection');
 let time = document.querySelector(".time");
 
 // initalize time to Seoul
 setTime(0);
 let interval = setInterval(function(){setTime(0)}, 1000);
 
-btn_area.addEventListener('click', (event) => {
+btnArea.addEventListener('click', (event) => {
     if(event.target.nodeName == 'BUTTON'){
         changeTime(event.target.className);
     }
