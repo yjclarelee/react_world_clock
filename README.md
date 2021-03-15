@@ -2,7 +2,7 @@
 
 ## Webpage
 [URL](https://yjclarelee.github.io/world_clock)
-![image]('./assets/img/website_image.png')
+![image](./assets/img/website_image.png)
 ## v.0.1.0
 Date: 2021.03.15
 
