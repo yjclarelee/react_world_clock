@@ -7,7 +7,7 @@ The clock changes when the buttons of the cities are clicked
 ## Cities
 Seoul, Berkeley and New York
 ## Webpage
-[URL](yjclarelee.github.io/world_clock)
+[URL](https://yjclarelee.github.io/world_clock)
 
 
 
