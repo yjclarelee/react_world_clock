@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react_world_clock/static/css/main.f502df13.chunk.css",
+    "main.js": "/react_world_clock/static/js/main.ea5f6e63.chunk.js",
+    "main.js.map": "/react_world_clock/static/js/main.ea5f6e63.chunk.js.map",
+    "runtime-main.js": "/react_world_clock/static/js/runtime-main.6931b1d3.js",
+    "runtime-main.js.map": "/react_world_clock/static/js/runtime-main.6931b1d3.js.map",
+    "static/js/2.9d9ec185.chunk.js": "/react_world_clock/static/js/2.9d9ec185.chunk.js",
+    "static/js/2.9d9ec185.chunk.js.map": "/react_world_clock/static/js/2.9d9ec185.chunk.js.map",
+    "index.html": "/react_world_clock/index.html",
+    "static/css/main.f502df13.chunk.css.map": "/react_world_clock/static/css/main.f502df13.chunk.css.map",
+    "static/js/2.9d9ec185.chunk.js.LICENSE.txt": "/react_world_clock/static/js/2.9d9ec185.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react_world_clock/static/media/old_world_map.1795b2fe.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6931b1d3.js",
+    "static/js/2.9d9ec185.chunk.js",
+    "static/css/main.f502df13.chunk.css",
+    "static/js/main.ea5f6e63.chunk.js"
+  ]
+}
